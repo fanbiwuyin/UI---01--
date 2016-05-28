@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E24EDA7D1CF926F800E87C48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E24EDA7C1CF926F800E87C48 /* main.m */; };
+		E24EDA801CF926F800E87C48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E24EDA7F1CF926F800E87C48 /* AppDelegate.m */; };
+		E24EDA831CF926F800E87C48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E24EDA821CF926F800E87C48 /* ViewController.m */; };
+		E24EDA861CF926F800E87C48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24EDA841CF926F800E87C48 /* Main.storyboard */; };
+		E24EDA891CF926F800E87C48 /* UI_____01______.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E24EDA871CF926F800E87C48 /* UI_____01______.xcdatamodeld */; };
+		E24EDA8B1CF926F800E87C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24EDA8A1CF926F800E87C48 /* Assets.xcassets */; };
+		E24EDA8E1CF926F800E87C48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24EDA8C1CF926F800E87C48 /* LaunchScreen.storyboard */; };
+		E24EDA991CF926F900E87C48 /* UI_____01______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E24EDA981CF926F900E87C48 /* UI_____01______Tests.m */; };
+		E24EDAA41CF926F900E87C48 /* UI_____01______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E24EDAA31CF926F900E87C48 /* UI_____01______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E24EDA951CF926F900E87C48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E24EDA701CF926F800E87C48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E24EDA771CF926F800E87C48;
+			remoteInfo = "UI高级-硬件01-距离传感器";
+		};
+		E24EDAA01CF926F900E87C48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E24EDA701CF926F800E87C48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E24EDA771CF926F800E87C48;
+			remoteInfo = "UI高级-硬件01-距离传感器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E24EDA781CF926F800E87C48 /* UI高级-硬件01-距离传感器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI高级-硬件01-距离传感器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24EDA7C1CF926F800E87C48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E24EDA7E1CF926F800E87C48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E24EDA7F1CF926F800E87C48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E24EDA811CF926F800E87C48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E24EDA821CF926F800E87C48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E24EDA851CF926F800E87C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E24EDA881CF926F800E87C48 /* UI_____01______.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "UI_____01______.xcdatamodel"; sourceTree = "<group>"; };
+		E24EDA8A1CF926F800E87C48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E24EDA8D1CF926F800E87C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E24EDA8F1CF926F800E87C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E24EDA941CF926F900E87C48 /* UI高级-硬件01-距离传感器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI高级-硬件01-距离传感器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24EDA981CF926F900E87C48 /* UI_____01______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI_____01______Tests.m"; sourceTree = "<group>"; };
+		E24EDA9A1CF926F900E87C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E24EDA9F1CF926F900E87C48 /* UI高级-硬件01-距离传感器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI高级-硬件01-距离传感器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24EDAA31CF926F900E87C48 /* UI_____01______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI_____01______UITests.m"; sourceTree = "<group>"; };
+		E24EDAA51CF926F900E87C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E24EDA751CF926F800E87C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E24EDA911CF926F900E87C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E24EDA9C1CF926F900E87C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E24EDA6F1CF926F800E87C48 = {
+			isa = PBXGroup;
+			children = (
+				E24EDA7A1CF926F800E87C48 /* UI高级-硬件01-距离传感器 */,
+				E24EDA971CF926F900E87C48 /* UI高级-硬件01-距离传感器Tests */,
+				E24EDAA21CF926F900E87C48 /* UI高级-硬件01-距离传感器UITests */,
+				E24EDA791CF926F800E87C48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E24EDA791CF926F800E87C48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E24EDA781CF926F800E87C48 /* UI高级-硬件01-距离传感器.app */,
+				E24EDA941CF926F900E87C48 /* UI高级-硬件01-距离传感器Tests.xctest */,
+				E24EDA9F1CF926F900E87C48 /* UI高级-硬件01-距离传感器UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E24EDA7A1CF926F800E87C48 /* UI高级-硬件01-距离传感器 */ = {
+			isa = PBXGroup;
+			children = (
+				E24EDA7E1CF926F800E87C48 /* AppDelegate.h */,
+				E24EDA7F1CF926F800E87C48 /* AppDelegate.m */,
+				E24EDA811CF926F800E87C48 /* ViewController.h */,
+				E24EDA821CF926F800E87C48 /* ViewController.m */,
+				E24EDA841CF926F800E87C48 /* Main.storyboard */,
+				E24EDA8A1CF926F800E87C48 /* Assets.xcassets */,
+				E24EDA8C1CF926F800E87C48 /* LaunchScreen.storyboard */,
+				E24EDA8F1CF926F800E87C48 /* Info.plist */,
+				E24EDA871CF926F800E87C48 /* UI_____01______.xcdatamodeld */,
+				E24EDA7B1CF926F800E87C48 /* Supporting Files */,
+			);
+			path = "UI高级-硬件01-距离传感器";
+			sourceTree = "<group>";
+		};
+		E24EDA7B1CF926F800E87C48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E24EDA7C1CF926F800E87C48 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E24EDA971CF926F900E87C48 /* UI高级-硬件01-距离传感器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E24EDA981CF926F900E87C48 /* UI_____01______Tests.m */,
+				E24EDA9A1CF926F900E87C48 /* Info.plist */,
+			);
+			path = "UI高级-硬件01-距离传感器Tests";
+			sourceTree = "<group>";
+		};
+		E24EDAA21CF926F900E87C48 /* UI高级-硬件01-距离传感器UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E24EDAA31CF926F900E87C48 /* UI_____01______UITests.m */,
+				E24EDAA51CF926F900E87C48 /* Info.plist */,
+			);
+			path = "UI高级-硬件01-距离传感器UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E24EDA771CF926F800E87C48 /* UI高级-硬件01-距离传感器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E24EDAA81CF926F900E87C48 /* Build configuration list for PBXNativeTarget "UI高级-硬件01-距离传感器" */;
+			buildPhases = (
+				E24EDA741CF926F800E87C48 /* Sources */,
+				E24EDA751CF926F800E87C48 /* Frameworks */,
+				E24EDA761CF926F800E87C48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UI高级-硬件01-距离传感器";
+			productName = "UI高级-硬件01-距离传感器";
+			productReference = E24EDA781CF926F800E87C48 /* UI高级-硬件01-距离传感器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E24EDA931CF926F900E87C48 /* UI高级-硬件01-距离传感器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E24EDAAB1CF926F900E87C48 /* Build configuration list for PBXNativeTarget "UI高级-硬件01-距离传感器Tests" */;
+			buildPhases = (
+				E24EDA901CF926F900E87C48 /* Sources */,
+				E24EDA911CF926F900E87C48 /* Frameworks */,
+				E24EDA921CF926F900E87C48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E24EDA961CF926F900E87C48 /* PBXTargetDependency */,
+			);
+			name = "UI高级-硬件01-距离传感器Tests";
+			productName = "UI高级-硬件01-距离传感器Tests";
+			productReference = E24EDA941CF926F900E87C48 /* UI高级-硬件01-距离传感器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E24EDA9E1CF926F900E87C48 /* UI高级-硬件01-距离传感器UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E24EDAAE1CF926F900E87C48 /* Build configuration list for PBXNativeTarget "UI高级-硬件01-距离传感器UITests" */;
+			buildPhases = (
+				E24EDA9B1CF926F900E87C48 /* Sources */,
+				E24EDA9C1CF926F900E87C48 /* Frameworks */,
+				E24EDA9D1CF926F900E87C48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E24EDAA11CF926F900E87C48 /* PBXTargetDependency */,
+			);
+			name = "UI高级-硬件01-距离传感器UITests";
+			productName = "UI高级-硬件01-距离传感器UITests";
+			productReference = E24EDA9F1CF926F900E87C48 /* UI高级-硬件01-距离传感器UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E24EDA701CF926F800E87C48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wangjin;
+				TargetAttributes = {
+					E24EDA771CF926F800E87C48 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E24EDA931CF926F900E87C48 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E24EDA771CF926F800E87C48;
+					};
+					E24EDA9E1CF926F900E87C48 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E24EDA771CF926F800E87C48;
+					};
+				};
+			};
+			buildConfigurationList = E24EDA731CF926F800E87C48 /* Build configuration list for PBXProject "UI高级-硬件01-距离传感器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E24EDA6F1CF926F800E87C48;
+			productRefGroup = E24EDA791CF926F800E87C48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E24EDA771CF926F800E87C48 /* UI高级-硬件01-距离传感器 */,
+				E24EDA931CF926F900E87C48 /* UI高级-硬件01-距离传感器Tests */,
+				E24EDA9E1CF926F900E87C48 /* UI高级-硬件01-距离传感器UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E24EDA761CF926F800E87C48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24EDA8E1CF926F800E87C48 /* LaunchScreen.storyboard in Resources */,
+				E24EDA8B1CF926F800E87C48 /* Assets.xcassets in Resources */,
+				E24EDA861CF926F800E87C48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E24EDA921CF926F900E87C48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E24EDA9D1CF926F900E87C48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E24EDA741CF926F800E87C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24EDA891CF926F800E87C48 /* UI_____01______.xcdatamodeld in Sources */,
+				E24EDA831CF926F800E87C48 /* ViewController.m in Sources */,
+				E24EDA801CF926F800E87C48 /* AppDelegate.m in Sources */,
+				E24EDA7D1CF926F800E87C48 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E24EDA901CF926F900E87C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24EDA991CF926F900E87C48 /* UI_____01______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E24EDA9B1CF926F900E87C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24EDAA41CF926F900E87C48 /* UI_____01______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E24EDA961CF926F900E87C48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E24EDA771CF926F800E87C48 /* UI高级-硬件01-距离传感器 */;
+			targetProxy = E24EDA951CF926F900E87C48 /* PBXContainerItemProxy */;
+		};
+		E24EDAA11CF926F900E87C48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E24EDA771CF926F800E87C48 /* UI高级-硬件01-距离传感器 */;
+			targetProxy = E24EDAA01CF926F900E87C48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E24EDA841CF926F800E87C48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E24EDA851CF926F800E87C48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E24EDA8C1CF926F800E87C48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E24EDA8D1CF926F800E87C48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E24EDAA61CF926F900E87C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E24EDAA71CF926F900E87C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E24EDAA91CF926F900E87C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UI高级-硬件01-距离传感器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bever.UI-----01------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E24EDAAA1CF926F900E87C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UI高级-硬件01-距离传感器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bever.UI-----01------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E24EDAAC1CF926F900E87C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI高级-硬件01-距离传感器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bever.UI-----01------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI高级-硬件01-距离传感器.app/UI高级-硬件01-距离传感器";
+			};
+			name = Debug;
+		};
+		E24EDAAD1CF926F900E87C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI高级-硬件01-距离传感器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bever.UI-----01------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI高级-硬件01-距离传感器.app/UI高级-硬件01-距离传感器";
+			};
+			name = Release;
+		};
+		E24EDAAF1CF926F900E87C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI高级-硬件01-距离传感器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bever.UI-----01------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI高级-硬件01-距离传感器";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E24EDAB01CF926F900E87C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI高级-硬件01-距离传感器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bever.UI-----01------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI高级-硬件01-距离传感器";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E24EDA731CF926F800E87C48 /* Build configuration list for PBXProject "UI高级-硬件01-距离传感器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E24EDAA61CF926F900E87C48 /* Debug */,
+				E24EDAA71CF926F900E87C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E24EDAA81CF926F900E87C48 /* Build configuration list for PBXNativeTarget "UI高级-硬件01-距离传感器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E24EDAA91CF926F900E87C48 /* Debug */,
+				E24EDAAA1CF926F900E87C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E24EDAAB1CF926F900E87C48 /* Build configuration list for PBXNativeTarget "UI高级-硬件01-距离传感器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E24EDAAC1CF926F900E87C48 /* Debug */,
+				E24EDAAD1CF926F900E87C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E24EDAAE1CF926F900E87C48 /* Build configuration list for PBXNativeTarget "UI高级-硬件01-距离传感器UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E24EDAAF1CF926F900E87C48 /* Debug */,
+				E24EDAB01CF926F900E87C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E24EDA871CF926F800E87C48 /* UI_____01______.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E24EDA881CF926F800E87C48 /* UI_____01______.xcdatamodel */,
+			);
+			currentVersion = E24EDA881CF926F800E87C48 /* UI_____01______.xcdatamodel */;
+			path = "UI_____01______.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E24EDA701CF926F800E87C48 /* Project object */;
+}
